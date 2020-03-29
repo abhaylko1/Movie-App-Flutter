@@ -12,8 +12,8 @@ class Connection {
   static StreamSubscription<ConnectivityResult> listenConnection(
       BuildContext context,
       {Color themeColor,
-        TextStyle titleStyle,
-        TextStyle notificationStyle}) {
+      TextStyle titleStyle,
+      TextStyle notificationStyle}) {
     StreamSubscription<ConnectivityResult> subscription = Connectivity()
         .onConnectivityChanged
         .listen((ConnectivityResult result) {

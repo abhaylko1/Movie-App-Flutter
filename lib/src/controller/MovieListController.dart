@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:Movies/src/modules/MovieDetail.dart';
 import 'package:Movies/src/modules/MovieList.dart';
 import 'package:Movies/src/resources/MovieProvider.dart';
 

@@ -1,4 +1,3 @@
-import 'package:Movies/src/controller/ConnectivityController.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -17,13 +16,11 @@ class _NoIntenetConnectivity extends State<NoIntenetConnectivity> {
 
   @override
   void didChangeDependencies() {
-   // connectionStatusController.getConnectionStatus();
     super.didChangeDependencies();
   }
 
   @override
   void dispose() {
-    //connectionStatusController.dispose();
     super.dispose();
   }
 
@@ -33,7 +30,7 @@ class _NoIntenetConnectivity extends State<NoIntenetConnectivity> {
       backgroundColor: Colors.white,
       body: Center(
         child: Text(
-          "No Internet Connectivity",
+          "Some error occurred",
           style: TextStyle(color: Colors.black),
         ),
       ),
