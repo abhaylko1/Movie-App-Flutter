@@ -1,6 +1,6 @@
-# flutter_app
+# Movie App on Bloc pattern with Internet Connectivity check
 
-A new Flutter application.
+Here you can see all movie list and individual movie detail also. Internet Connectivity checks is also implemented in this application. Build on Bloc pattern.
 
 ## Getting Started
 
